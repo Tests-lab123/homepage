@@ -34,3 +34,8 @@ header[data-theme="tefl"]{background:#fff !important;width:100% !important;max-w
 header[data-theme="tefl"] .navbar{width:100% !important;max-width:none !important;background:#fff !important}
 header[data-theme="tefl"] > div{max-width:100% !important}
 html,body{overflow-x:hidden}
+
+/* keep the site header above hero stacking contexts (hero uses z-2 relative) */
+header[data-theme="tefl"]{position:sticky !important;top:0 !important;z-index:100000 !important;background:#fff !important;min-height:64px !important;isolation:isolate}
+header[data-theme="tefl"] *{max-width:100%}
+header[data-theme="tefl"] .navbar{min-height:64px !important}
