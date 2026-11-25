@@ -4,9 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>The TEFL Org — homepage redesign (demo)</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>The TEFL Org — homepage rebuild</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,11 +14,11 @@
   <div class="nav-inner">
     <a class="brand" href="index.html"><img src="assets/tefl-org-web-8093f3.svg" alt="The TEFL Org" style="height:34px;width:auto"></a>
     <nav class="nav-links" id="navLinks">
-      <a href="#courses">Courses</a>
-      <a href="#destinations">Destinations</a>
-      <a href="#why">Why us</a>
-      <a href="#reviews">Reviews</a>
-      <a href="courses.html">Compare</a>
+      <a href="#courses">TEFL Courses</a>
+      <a href="#abroad">Teach Abroad</a>
+      <a href="#online">Teach Online</a>
+      <a href="#destinations">Where will you TEFL?</a>
+      <a href="#jobs">TEFL Jobs</a>
     </nav>
     <div class="nav-cta">
       <a class="btn btn-ghost" href="#quiz">Find my course</a>
@@ -51,60 +49,39 @@
   </div>
 </section>
 
-<section class="stats">
-  <div class="stat"><strong>205,000+</strong><span>teachers trained</span></div>
-  <div class="stat"><strong>92%</strong><span>would recommend us</span></div>
-  <div class="stat"><strong>80%</strong><span>find work in 2 months*</span></div>
-  <div class="stat"><strong>4.8/5</strong><span>from 12,400 reviews</span></div>
-</section>
-
 <section class="section" id="courses">
-  <div class="section-head">
-    <h2>Pick the course that fits your plans</h2>
-    <p>Online, classroom, or blended — every route leads to the same recognised certificate.</p>
-  </div>
-  <div class="filters" role="tablist">
-    <button class="chip is-active" data-filter="all">All</button>
-    <button class="chip" data-filter="online">Online</button>
-    <button class="chip" data-filter="classroom">Classroom</button>
-    <button class="chip" data-filter="advanced">Advanced</button>
-  </div>
-  <div class="cards" id="courseCards">
-    <article class="card" data-tags="online">
-      <span class="tag">Most popular</span>
-      <h3>120 Hour Premier Online</h3>
-      <p class="price">£199</p>
-      <p class="muted">Self-paced · 6 months access</p>
-      <a class="btn btn-ghost btn-block" href="courses.html">View</a>
-    </article>
-    <article class="card" data-tags="online advanced">
-      <span class="tag tag-alt">Level 5</span>
-      <h3>180 Hour Level 5 Diploma</h3>
-      <p class="price">£299</p>
-      <p class="muted">OFQUAL-regulated · tutor marked</p>
-      <a class="btn btn-ghost btn-block" href="courses.html">View</a>
-    </article>
-    <article class="card" data-tags="classroom">
-      <span class="tag tag-alt">In person</span>
-      <h3>Classroom TEFL Course</h3>
-      <p class="price">£349</p>
-      <p class="muted">20 hours face-to-face · UK venues</p>
-      <a class="btn btn-ghost btn-block" href="courses.html">View</a>
-    </article>
-    <article class="card" data-tags="online advanced">
-      <span class="tag tag-alt">Most complete</span>
-      <h3>250 Hour Diploma</h3>
-      <p class="price">£399</p>
-      <p class="muted">Includes teaching online + business English</p>
-      <a class="btn btn-ghost btn-block" href="courses.html">View</a>
-    </article>
+  <div class="two-col">
+    <div>
+      <p class="eyebrow">Learn online</p>
+      <h2>120-hour Premier Online TEFL Course</h2>
+      <p>Our best-selling course. Self-paced, tutor marked, and the qualification most employers ask for.</p>
+      <a class="btn btn-primary" href="courses.html">View course</a>
+    </div>
+    <div class="card-panel">
+      <img src="assets/120-hr-menu-f1f24a.webp" alt="" style="width:100%;border-radius:12px">
+    </div>
   </div>
 </section>
 
-<section class="section alt" id="destinations">
+<section class="section alt" id="abroad">
+  <div class="two-col">
+    <div>
+      <h2>Teach English Abroad</h2>
+      <p>Our guide to teaching abroad is packed with essential information about more than 70 countries you can find work teaching English in.</p>
+      <a class="btn btn-ghost" href="#destinations">View our guide</a>
+    </div>
+    <div>
+      <h2>Teach English Online</h2>
+      <p>Discover how to get started teaching English online with our guide. Teach from home, teach as you travel — the choice is yours.</p>
+      <a class="btn btn-ghost" href="#online">View our guide</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="destinations">
   <div class="section-head">
-    <h2>Where will you teach?</h2>
-    <p>Guides for the countries hiring most — requirements, salaries and how to find work.</p>
+    <h2>Where will you TEFL?</h2>
+    <p>Learn how to get started on your own TEFL adventure with our comprehensive guides. Packed full of information about requirements, salaries, finding work, and more.</p>
   </div>
   <div class="dest-grid">
     <a class="dest" href="#"><span class="flag">🇪🇸</span><h3>Spain</h3><p>€1,200–1,800/mo</p></a>
@@ -116,79 +93,121 @@
   </div>
 </section>
 
+<section class="section alt" id="accreditation">
+  <div class="two-col">
+    <div>
+      <h2>Internationally recognised TEFL certification</h2>
+      <p>Why is accreditation important? It's what gives you — and employers — confidence that our courses have undergone a process of external quality control. When you sign up for a TEFL Org course you can be sure the training is of the highest standard and internationally recognised.</p>
+    </div>
+    <div class="badges">
+      <div class="badge-card">DEAC</div>
+      <div class="badge-card">B Corp</div>
+      <div class="badge-card">Ofqual</div>
+      <div class="badge-card">BAC</div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="why">
   <div class="section-head">
-    <h2>Why train with The TEFL Org</h2>
-    <p>Owned and run by teachers. No hidden costs, no shortcuts.</p>
+    <h2>Why should you learn to teach English with The TEFL Org?</h2>
+    <p>Get your TEFL certificate with the world's most accredited TEFL course provider, recognised by employers worldwide.</p>
   </div>
   <div class="why-grid">
-    <div class="why"><span class="ico">✓</span><h3>Internationally recognised</h3><p>Accepted by employers in over 80 countries.</p></div>
-    <div class="why"><span class="ico">👩‍🏫</span><h3>Dedicated tutor</h3><p>A real teacher marks your work and answers questions.</p></div>
+    <div class="why"><span class="ico">✓</span><h3>Internationally recognised certification</h3><p>Accepted by employers in over 80 countries.</p></div>
+    <div class="why"><span class="ico">👩‍🏫</span><h3>Dedicated online tutor</h3><p>A personal tutor for the duration of your course, with assignments marked within 48 hours.</p></div>
     <div class="why"><span class="ico">💼</span><h3>Lifetime jobs centre</h3><p>Access to our TEFL Jobs Centre for as long as you teach.</p></div>
-    <div class="why"><span class="ico">📱</span><h3>Study anywhere</h3><p>24/7 access on any device, at your own pace.</p></div>
-    <div class="why"><span class="ico">💸</span><h3>No hidden costs</h3><p>The price you see includes certificate and support.</p></div>
-    <div class="why"><span class="ico">🌍</span><h3>Built by teachers</h3><p>Founded and run by people who taught abroad themselves.</p></div>
+    <div class="why"><span class="ico">📱</span><h3>24/7 access on any device</h3><p>Study at your own pace, wherever you are.</p></div>
+    <div class="why"><span class="ico">💸</span><h3>No hidden costs</h3><p>Certificate and support included in the price.</p></div>
+    <div class="why"><span class="ico">🌍</span><h3>Owned and run by teachers</h3><p>Founded by people who taught abroad themselves.</p></div>
+  </div>
+</section>
+
+<section class="section alt" id="schedule">
+  <div class="section-head">
+    <h2>TEFL courses to suit any schedule</h2>
+    <p>Online, in person, over Zoom — how you get TEFL qualified is up to you. Study entirely at your own pace with our best-selling 120-hour Premier Online course or our Level 5 TEFL Diploma.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><span class="tag">Most popular</span><h3>120 Hour Premier Online</h3><p class="price">£199</p><p class="muted">Self-paced · 6 months access</p><a class="btn btn-ghost btn-block" href="courses.html">View</a></article>
+    <article class="card"><span class="tag tag-alt">Level 5</span><h3>180 Hour Level 5 Diploma</h3><p class="price">£299</p><p class="muted">OFQUAL-regulated · tutor marked</p><a class="btn btn-ghost btn-block" href="courses.html">View</a></article>
+    <article class="card"><span class="tag tag-alt">In person</span><h3>Classroom TEFL Course</h3><p class="price">£349</p><p class="muted">20 hours face-to-face · UK venues</p><a class="btn btn-ghost btn-block" href="courses.html">View</a></article>
+    <article class="card"><span class="tag tag-alt">Most complete</span><h3>250 Hour Diploma</h3><p class="price">£399</p><p class="muted">Includes teaching online + business English</p><a class="btn btn-ghost btn-block" href="courses.html">View</a></article>
   </div>
 </section>
 
 <section class="quiz-band" id="quiz">
   <div>
-    <h2>Not sure which course?</h2>
-    <p>Answer three questions and we'll point you at the right one.</p>
+    <h2>Try our TEFL quiz!</h2>
+    <p>Find the perfect course for you.</p>
   </div>
-  <button class="btn btn-primary btn-lg" id="quizBtn">Start the quiz →</button>
+  <button class="btn btn-primary btn-lg" id="quizBtn">Take the quiz →</button>
 </section>
 
 <section class="section alt" id="reviews">
   <div class="section-head">
-    <h2>What graduates say</h2>
+    <h2>We've trained over 205,000 teachers</h2>
+    <p>92% of them would recommend us · Rated 4.6 from 10,699 reviews</p>
   </div>
   <div class="quotes">
-    <blockquote class="quote is-active">“I finished the 120 hour in six weeks while working full time. Three months later I was teaching in Madrid.”<footer>— Hannah, Leeds</footer></blockquote>
+    <blockquote class="quote is-active">“The course I took was well structured and had a lot of helpful information to help someone who's new to teaching. Assignments were very relevant to real situations, and feedback was given quickly.”<footer>— Anonymous, verified buyer</footer></blockquote>
+    <blockquote class="quote">“I finished the 120 hour while working full time. Three months later I was teaching in Madrid.”<footer>— Hannah, Leeds</footer></blockquote>
     <blockquote class="quote">“The tutor feedback was the difference. It felt like a real course, not a PDF.”<footer>— Marcus, Bristol</footer></blockquote>
-    <blockquote class="quote">“I now teach online four evenings a week. It paid for itself in the first month.”<footer>— Priya, Glasgow</footer></blockquote>
   </div>
   <div class="dots" id="dots"><button class="dot is-active"></button><button class="dot"></button><button class="dot"></button></div>
+</section>
+
+<section class="section" id="graduates">
+  <div class="two-col">
+    <div>
+      <h2>Join over 205,000 TEFL Org graduates teaching worldwide.</h2>
+      <a class="btn btn-primary" href="#">Read their stories</a>
+    </div>
+    <div class="card-panel">
+      <h3 style="margin-top:0">I Taught English Abroad</h3>
+      <p class="muted">A TEFL Org original podcast. From globetrotters who've visited every country on Earth to TikTok teaching sensations, we've interviewed some of the most interesting teachers out there.</p>
+      <a class="btn btn-ghost" href="#">Listen now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="jobs">
+  <div class="two-col">
+    <div>
+      <h2>Find jobs worldwide with the TEFL Org Jobs Centre</h2>
+      <p>Get lifetime access with any TEFL Org course.</p>
+      <a class="btn btn-primary" href="#">Browse jobs</a>
+    </div>
+    <div>
+      <h2>The TEFL Org story</h2>
+      <p>After teaching English in Europe for many years, Jennifer MacKenzie and Joe Hallwood returned home to the UK with a mission: to help others experience the incredible opportunities TEFL had brought them. In 2008, The TEFL Org was born.</p>
+    </div>
+  </div>
 </section>
 
 <footer class="foot">
   <div class="foot-grid">
     <div>
-      <a class="brand" href="index.html"><span class="brand-mark">T</span> The TEFL Org</a>
-      <p class="muted">Demo redesign for review — not the live site.</p>
+      <a class="brand" href="index.html"><img src="assets/tefl-org-web-8093f3.svg" alt="The TEFL Org" style="height:30px;width:auto"></a>
+      <p class="muted">Rebuild for review — not the live site.</p>
     </div>
-    <div><h4>Courses</h4><a href="#">120 Hour</a><a href="#">180 Hour</a><a href="#">250 Hour</a><a href="#">Classroom</a></div>
-    <div><h4>Teach</h4><a href="#">Abroad</a><a href="#">Online</a><a href="#">Jobs centre</a><a href="#">Destinations</a></div>
-    <div><h4>Company</h4><a href="#">About</a><a href="#">Reviews</a><a href="#">Podcast</a><a href="#">Contact</a></div>
+    <div><h4>Courses</h4><a href="#courses">120 Hour</a><a href="#schedule">180 Hour</a><a href="#schedule">250 Hour</a><a href="#schedule">Classroom</a></div>
+    <div><h4>Teach</h4><a href="#abroad">Abroad</a><a href="#online">Online</a><a href="#jobs">Jobs centre</a><a href="#destinations">Destinations</a></div>
+    <div><h4>Company</h4><a href="#accreditation">Accreditation</a><a href="#reviews">Reviews</a><a href="#graduates">Podcast</a><a href="#">Contact</a></div>
   </div>
-  <p class="micro">*Based on our 2025 graduate survey. Demo page · <a href="/demo-cards/">previous demo</a></p>
+  <p class="micro">*Based on our graduate survey. Rebuild demo.</p>
 </footer>
 
 <div class="modal" id="quizModal" aria-hidden="true">
   <div class="modal-backdrop js-close"></div>
   <div class="modal-card" role="dialog" aria-modal="true">
     <button class="modal-x js-close" aria-label="Close">×</button>
-    <div id="quizStep1">
-      <h3>How much time can you study?</h3>
-      <p class="muted">Step 1 of 3</p>
-      <button class="opt" data-next="2">A few hours a week</button>
-      <button class="opt" data-next="2">Ten hours or more</button>
-    </div>
-    <div id="quizStep2" hidden>
-      <h3>Do you want classroom practice?</h3>
-      <p class="muted">Step 2 of 3</p>
-      <button class="opt" data-next="3">Yes, in person</button>
-      <button class="opt" data-next="3">No, online only</button>
-    </div>
-    <div id="quizStep3" hidden>
-      <h3>Our suggestion</h3>
-      <p class="muted">Step 3 of 3</p>
-      <div class="result">
-        <strong>120 Hour Premier Online</strong>
-        <p>Self-paced, accredited, and the qualification most employers ask for.</p>
-        <a class="btn btn-primary" href="courses.html">See the course</a>
-      </div>
-    </div>
+    <div id="quizStep1"><h3>How much time can you study?</h3><p class="muted">Step 1 of 3</p>
+      <button class="opt" data-next="2">A few hours a week</button><button class="opt" data-next="2">Ten hours or more</button></div>
+    <div id="quizStep2" hidden><h3>Do you want classroom practice?</h3><p class="muted">Step 2 of 3</p>
+      <button class="opt" data-next="3">Yes, in person</button><button class="opt" data-next="3">No, online only</button></div>
+    <div id="quizStep3" hidden><h3>Our suggestion</h3><p class="muted">Step 3 of 3</p>
+      <div class="result"><strong>120 Hour Premier Online</strong><p>Self-paced, accredited, and the qualification most employers ask for.</p><a class="btn btn-primary" href="courses.html">See the course</a></div></div>
   </div>
 </div>
 

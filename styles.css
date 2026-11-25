@@ -162,3 +162,11 @@ h1 em{font-style:normal;color:var(--teal)}
 
 h1,h2,h3,h4,.brand,.btn,.chip,.tag,.hero-trust strong,.stat strong,.price,.pill,.nav-links a{font-family:"Omnes","Runda",system-ui,sans-serif;font-weight:900;letter-spacing:-.01em}
 body{font-family:"Runda","Poppins",system-ui,sans-serif}
+
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.card-panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 16px 40px rgba(16,42,67,.06)}
+.badges{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.badge-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;text-align:center;font-weight:600;color:#50565b}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#3BB099;font-weight:600;margin:0 0 10px}
+@media(max-width:900px){.two-col{grid-template-columns:1fr;gap:28px}}
+
