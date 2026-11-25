@@ -170,3 +170,11 @@ body{font-family:"Runda","Poppins",system-ui,sans-serif}
 .eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#3BB099;font-weight:600;margin:0 0 10px}
 @media(max-width:900px){.two-col{grid-template-columns:1fr;gap:28px}}
 
+
+.hero-reviews{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:26px}
+.hero-reviews-label{font-family:"Omnes",system-ui,sans-serif;font-weight:900;color:#fff;font-size:15px}
+.hero-review-logos{display:flex;align-items:center;gap:14px}
+.hero-review-logos img{display:block;opacity:.95}
+.hero-live-photo{border-radius:18px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.28)}
+.hero-live-photo img{width:100%;display:block;object-fit:cover}
+@media(max-width:900px){.hero-live-photo{order:-1}}
