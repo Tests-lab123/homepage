@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[72],{1371:function(p,t,n){"use strict";n.r(t);var r=function(){var s=this,u=s._self._c;return u("div",{staticClass:"infobox",class:s.$props.classes},[s._t("default")],2)},a=[],o={props:{id:{default:"",type:String},classes:{default:"",type:String}},render(){var e=this.$slots.default;return e}},l=o,c=n(0),i=Object(c.a)(l,r,a,!1,null,null,null),d=t.default=i.exports}}]);
+
+//# sourceMappingURL=4cb6ef0.modern.js.map

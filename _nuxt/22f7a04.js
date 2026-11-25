@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[74],{1451:function(d,s,t){"use strict";t.r(s);var e=function(){var n=this,u=n._self._c;return u("div",{staticClass:"infobox",class:n.$props.classes},[n._t("default")],2)},r=[],o={props:{id:{default:"",type:String},classes:{default:"",type:String}},render:function(){var n=this.$slots.default;return n}},a=o,l=t(1),c=Object(l.a)(a,e,r,!1,null,null,null),p=s.default=c.exports}}]);
+
+//# sourceMappingURL=22f7a04.js.map

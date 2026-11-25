@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[193],{1168:function(o,s,_){"use strict";var d=_(923),n=_.n(d)},1447:function(o,s,_){"use strict";_.r(s);var d=function(){var u=this,e=u._self._c;return e("div",[e("div",{attrs:{id:"coursecomp"}},[e("client-only",[e("CoursesCourseQuizCustom")],1),u._v(" "),e("hr",{staticClass:"hidedesktop"})],1)])},n=[],l={name:"CourseQuiz",props:{id:{default:"65313b0c6dafac00142eed86",type:String}},data(){return{interactLoaded:!1}}},i=l,a=_(1168),r=_(0),t=Object(r.a)(i,d,n,!1,null,null,null),c=s.default=t.exports;installComponents(t,{CoursesCourseQuizCustom:_(1052).default})},923:function(o,s,_){o.exports={}}}]);
+
+//# sourceMappingURL=f267ac0.modern.js.map

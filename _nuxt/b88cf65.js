@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[86],{1196:function(o,s,_){"use strict";var d=_(951),n=_.n(d)},1459:function(o,s,_){"use strict";_.r(s);var d=function(){var e=this,i=e._self._c;return i("ul",{class:"course-tabs tabs "+e.$props.margin,attrs:{id:"tab_menu_"+e.$props.id}},[e._t("default")],2)},n=[],t={name:"TabMenu",props:{id:{default:"default",type:String},margin:{default:"",type:String}},render:function(){var e=this.$slots.default;return e}},l=t,c=_(1196),r=_(1),u=Object(r.a)(l,d,n,!1,null,"7850f208",null),p=s.default=u.exports},951:function(o,s,_){o.exports={}}}]);
+
+//# sourceMappingURL=b88cf65.js.map

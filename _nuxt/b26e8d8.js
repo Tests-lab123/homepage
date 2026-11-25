@@ -1,0 +1,3 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[209],{1536:function(p,n,r){"use strict";r.r(n);var t=function(){var e=this,d=e._self._c;return d("ul",{class:"infotabs half mobile-1 "+e.$props.margin},[e._t("default")],2)},s=[],a={name:"TabMenu",props:{margin:{default:"",type:String},tabIsOpen:{default:"",type:String}},render:function(){var e=this.$slots.default;return e}},l=a,u=r(1),o=Object(u.a)(l,t,s,!1,null,null,null),c=n.default=o.exports}}]);
+
+//# sourceMappingURL=b26e8d8.js.map
