@@ -1,0 +1,53 @@
+:root{--teal:#00a7b5;--navy:#102a43;--slate:#5c6b77;--line:#e3e9ed;--bg:#f7f9fa;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--navy);background:var(--white);line-height:1.55}
+a{color:inherit}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);z-index:20}
+.brand{font-weight:700;text-decoration:none;letter-spacing:-.01em}
+.nav-links{display:flex;gap:24px;font-size:15px}
+.nav-links a{text-decoration:none;color:var(--slate)}
+.nav-links a:hover{color:var(--teal)}
+.hero{background:linear-gradient(160deg,#eef7f8,#ffffff 65%);padding:96px 32px 112px}
+.hero-inner{max-width:760px;margin:0 auto}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);font-weight:600;margin:0 0 18px}
+h1{font-size:clamp(36px,6vw,64px);line-height:1.05;letter-spacing:-.02em;margin:0 0 20px}
+.lede{font-size:19px;color:var(--slate);margin:0 0 28px;max-width:520px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.btn{display:inline-block;border:0;border-radius:10px;padding:13px 22px;font-size:15px;font-weight:600;cursor:pointer;text-decoration:none;transition:.15s}
+.btn-primary{background:var(--teal);color:#fff}
+.btn-primary:hover{background:#008d99}
+.btn-ghost{background:transparent;color:var(--navy);border:1px solid var(--line)}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal)}
+.trust{font-size:14px;color:var(--slate);margin:0}
+.section{max-width:960px;margin:0 auto;padding:72px 32px}
+.section.alt{background:var(--bg);max-width:none;padding:72px 32px}
+.section.alt>*{max-width:960px;margin-left:auto;margin-right:auto}
+h2{font-size:30px;letter-spacing:-.01em;margin:0 0 8px}
+.tabs{display:flex;gap:8px;margin:24px 0 20px;flex-wrap:wrap}
+.tab{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-size:14px;font-weight:600;color:var(--slate);cursor:pointer}
+.tab.is-active{background:var(--navy);border-color:var(--navy);color:#fff}
+.panel{display:none;border:1px solid var(--line);border-radius:14px;padding:26px}
+.panel.is-active{display:block}
+.panel h3{margin:0 0 8px;font-size:20px}
+.ticks{list-style:none;padding:0;margin:14px 0 0}
+.ticks li{padding-left:26px;position:relative;margin-bottom:8px;color:var(--slate)}
+.ticks li:before{content:"✓";position:absolute;left:0;color:var(--teal);font-weight:700}
+.calc{max-width:520px;margin-top:24px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+.calc label{font-size:14px;font-weight:600;color:var(--slate)}
+input[type=range]{width:100%;margin:14px 0 18px;accent-color:var(--teal)}
+.calc-out{display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:700}
+#calc-monthly{color:var(--teal)}
+.foot{padding:32px;border-top:1px solid var(--line);color:var(--slate);font-size:14px;text-align:center}
+.modal{position:fixed;inset:0;display:none;place-items:center;z-index:50}
+.modal.is-open{display:grid}
+.modal-backdrop{position:absolute;inset:0;background:rgba(16,42,67,.55)}
+.modal-card{position:relative;background:#fff;border-radius:16px;padding:32px;width:min(440px,92vw);box-shadow:0 24px 64px rgba(16,42,67,.28)}
+.modal-card h3{margin:0 0 6px}
+.modal-card p{color:var(--slate);margin:0 0 18px;font-size:14px}
+.modal-x{position:absolute;top:12px;right:16px;background:none;border:0;font-size:26px;color:var(--slate);cursor:pointer}
+form label{display:block;font-size:13px;font-weight:600;margin:12px 0 4px}
+form input,form textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit}
+form input:focus,form textarea:focus{outline:2px solid var(--teal);outline-offset:1px;border-color:transparent}
+form .btn{margin-top:16px;width:100%}
+.form-ok{color:var(--teal);font-weight:600;margin-top:14px}
+@media(max-width:640px){.nav{padding:14px 18px}.nav-links{gap:14px;font-size:14px}.hero{padding:60px 20px 72px}.section{padding:48px 20px}}

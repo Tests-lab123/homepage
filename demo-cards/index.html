@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>TEFL Org — demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html">The TEFL Org</a>
+  <nav class="nav-links">
+    <a href="courses.html">Courses</a>
+    <a href="#why">Why TEFL</a>
+    <a href="#" class="js-open-modal">Talk to us</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Demo build · not a live page</p>
+    <h1>Teach English.<br>See the world.</h1>
+    <p class="lede">Accredited TEFL courses, online and in person. From £<span id="hero-price">199</span> — pay in three.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="courses.html">Browse courses</a>
+      <button class="btn btn-ghost js-open-modal">Ask a question</button>
+    </div>
+    <p class="trust">★★★★★ Rated 4.8 by 12,400+ graduates</p>
+  </div>
+</section>
+
+<section class="section" id="why">
+  <h2>Pick your pace</h2>
+  <div class="tabs" role="tablist">
+    <button class="tab is-active" data-tab="t1" role="tab">120 hours</button>
+    <button class="tab" data-tab="t2" role="tab">180 hours</button>
+    <button class="tab" data-tab="t3" role="tab">250 hours</button>
+  </div>
+  <div class="tab-panels">
+    <div class="panel is-active" id="t1">
+      <h3>120 Hour Course — £199</h3>
+      <p>The minimum most employers ask for. Fully online, self-paced, six months to finish.</p>
+      <ul class="ticks"><li>Accredited by DEAC and Ofqual-regulated</li><li>Tutor support and marked assignments</li><li>Instant certificate on completion</li></ul>
+    </div>
+    <div class="panel" id="t2">
+      <h3>180 Hour Course — £299</h3>
+      <p>More classroom hours plus teaching practice modules. The common choice for Asia and the Middle East.</p>
+      <ul class="ticks"><li>Everything in the 120 hour</li><li>Teaching young learners module</li><li>Observed lesson planning</li></ul>
+    </div>
+    <div class="panel" id="t3">
+      <h3>250 Hour Course — £399</h3>
+      <p>Our most complete qualification, including online teaching and business English.</p>
+      <ul class="ticks"><li>Everything in the 180 hour</li><li>Teaching English online module</li><li>Careers pack and job board access</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <h2>Pay monthly</h2>
+  <p class="lede">Three interest-free instalments, no credit check.</p>
+  <div class="calc">
+    <label for="amount">Course price</label>
+    <input id="amount" type="range" min="199" max="399" step="50" value="199">
+    <div class="calc-out">
+      <span id="calc-price">£199</span>
+      <span id="calc-monthly">3 × £66.34</span>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <p>Demo page built for review · The TEFL Org</p>
+</footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop js-close-modal"></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-x js-close-modal" aria-label="Close">×</button>
+    <h3 id="modal-title">Ask us anything</h3>
+    <p>This is a demo form — nothing is sent.</p>
+    <form id="demo-form">
+      <label for="name">Name</label>
+      <input id="name" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" required>
+      <label for="msg">Question</label>
+      <textarea id="msg" rows="3"></textarea>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
+    <p class="form-ok" id="form-ok" hidden>Thanks — in a live page this would reach the team.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

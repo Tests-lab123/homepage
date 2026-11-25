@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Courses — TEFL Org demo</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.course-grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:32px}
+.course-card{border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.course-card h3{margin:0;font-size:19px}
+.course-card .price{font-size:26px;font-weight:700;color:var(--navy)}
+.course-card .meta{color:var(--slate);font-size:14px;margin:0}
+.course-card .btn{margin-top:auto}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html">The TEFL Org</a>
+  <nav class="nav-links">
+    <a href="courses.html">Courses</a>
+    <a href="index.html#why">Why TEFL</a>
+    <a href="#" class="js-open-modal">Talk to us</a>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>Choose your course</h2>
+  <p class="lede">Every course is online, self-paced, and comes with tutor support.</p>
+  <div class="course-grid">
+    <article class="course-card">
+      <h3>120 Hour Course</h3>
+      <p class="price">£199</p>
+      <p class="meta">6 months access · most popular entry level</p>
+      <a class="btn btn-primary" href="index.html#why">See details</a>
+    </article>
+    <article class="course-card">
+      <h3>180 Hour Course</h3>
+      <p class="price">£299</p>
+      <p class="meta">Includes teaching young learners</p>
+      <a class="btn btn-primary" href="index.html#why">See details</a>
+    </article>
+    <article class="course-card">
+      <h3>250 Hour Course</h3>
+      <p class="price">£399</p>
+      <p class="meta">Online teaching and business English</p>
+      <a class="btn btn-primary" href="index.html#why">See details</a>
+    </article>
+  </div>
+</section>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop js-close-modal"></div>
+  <div class="modal-card" role="dialog" aria-modal="true">
+    <button class="modal-x js-close-modal" aria-label="Close">×</button>
+    <h3>Ask us anything</h3>
+    <p>Demo form — nothing is sent.</p>
+    <form id="demo-form">
+      <label for="name">Name</label><input id="name" required>
+      <label for="email">Email</label><input id="email" type="email" required>
+      <label for="msg">Question</label><textarea id="msg" rows="3"></textarea>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </form>
+    <p class="form-ok" id="form-ok" hidden>Thanks — in a live page this would reach the team.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
