@@ -28,3 +28,9 @@
 [class~="w-16"]{width:4rem !important}
 [class~="h-16"]{height:4rem !important}
 svg[class~="w-4"],svg[class~="h-4"],svg[class~="w-5"],svg[class~="h-5"],svg[class~="w-6"],svg[class~="h-6"]{display:inline-block;vertical-align:middle}
+
+/* force a full-width white header at every breakpoint (site header is bg-transparent until xl) */
+header[data-theme="tefl"]{background:#fff !important;width:100% !important;max-width:100% !important}
+header[data-theme="tefl"] .navbar{width:100% !important;max-width:none !important;background:#fff !important}
+header[data-theme="tefl"] > div{max-width:100% !important}
+html,body{overflow-x:hidden}
