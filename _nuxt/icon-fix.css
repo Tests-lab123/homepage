@@ -38,12 +38,3 @@ html,body{overflow-x:hidden}
 /* keep the header logo at a sane size regardless of missing utility classes */
 header[data-theme="tefl"] img[src*="tefl-org-web"]{height:36px !important;width:auto !important;max-height:40px !important;display:block}
 header[data-theme="tefl"] a img[src*="tefl-org-web_strapline"]{height:40px !important}
-
-/* Responsive parity with tefl.org: below 1280px the site shows a mobile navbar that is
-   position:fixed, and the page reserves space for it with a scoped rule the mirror lacks.
-   Neutralise the fixed positioning so the bar sits in flow instead of over the content. */
-@media (max-width:1279px){
-  header[data-theme="tefl"]{background:#fff !important}
-  #site-header{display:none !important}
-  header[data-theme="tefl"] .navbar.fixed{position:relative !important;top:auto !important;left:auto !important;right:auto !important}
-}
